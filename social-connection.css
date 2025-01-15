@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+#card {
+
+    height: 420px;
+    width: 300px;
+    background-color: #ffffff40;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 3px 5px 12px gray;
+    overflow: hidden;
+}
+
+#card h4 {
+    text-align: left;
+    margin-top: 80px;
+}
+
+img {
+    height: 240px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+#card h1 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#card h5 {
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.973);
+    margin: 20px;
+    background-color: black;
+}
+
+#card button {
+    background-color: blue;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#card button:hover {
+    background-color: lightslategray;
+
+}
+
+#card #remove {
+    background-color: #dadadada;
+    color: #111;
+}
+
+#card #remove:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#card i {
+    color: rgba(255, 0, 0, 0.785);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%) scale(0.3);
+    opacity: 0;
+    transition: transform ease 0.5s;
+
+}
